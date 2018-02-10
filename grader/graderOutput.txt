@@ -1,0 +1,13 @@
+[Test Description] [#1 - Data extraction] locationYearlyAverageRecords should be able to process 1 million records
+[Observed Error] test has been aborted
+[Lost Points] 5
+
+[Test Description] [#1 - Data extraction] weather stations are identified by the composite (STN, WBAN)
+[Observed Error] Array((2000-01-01,Location(1.0,-1.0),10.0), 
+                       (2000-01-02,Location(4.0,-4.0),10.0), 
+                       (2000-01-02,Location(2.0,-2.0),10.0), 
+                       (2000-01-03,Location(3.0,-3.0),10.0), 
+                       (2000-01-04,Location(4.0,-4.0),10.0), 
+                       (2000-01-04,Location(2.0,-2.0),10.0), 
+                       (2000-01-05,Location(5.0,-5.0),10.0)) had size 7 instead of expected size 5
+[Lost Points] 3
